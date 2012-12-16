@@ -131,6 +131,10 @@ __BEGIN_DECLS
 
 /* Query if a2dp  is supported */
 #define AUDIO_PARAMETER_KEY_HANDLE_A2DP_DEVICE "isA2dpDeviceSupported"
+
+// star add for raw data output
+#define AUDIO_PARAMETER_RAW_DATA_OUT "raw_data_output"
+
 /**************************************/
 
 /* common audio stream configuration parameters */
